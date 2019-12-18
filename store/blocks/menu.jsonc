@@ -23,7 +23,7 @@
             "text": "Major Appliances"
           }
         },
-        "blocks": ["vtex.menu@2.x:submenu#major-appliances"]
+        "blocks": ["vtex.menu@2.x:submenu#major"]
       },
 
 
@@ -39,7 +39,7 @@
             "text": "Small Appliances"
           }
         },
-        "blocks": ["vtex.menu@2.x:submenu#small-appliances"]
+        "blocks": ["vtex.menu@2.x:submenu#small"]
       },
 
       "menu-item#electronics": {
@@ -57,7 +57,7 @@
         "blocks": ["vtex.menu@2.x:submenu#electronics"]
       },
 
-    "vtex.menu@2.x:submenu#major-appliances":{
+    "vtex.menu@2.x:submenu#major":{
         "children":[
           "vtex.menu@2.x:menu#major"
         ]
@@ -75,7 +75,7 @@
           }
     },
 
-    "vtex.menu@2.x:submenu#small-appliances":{
+    "vtex.menu@2.x:submenu#small":{
         "children":[
           "vtex.menu@2.x:menu#small"
         ]
