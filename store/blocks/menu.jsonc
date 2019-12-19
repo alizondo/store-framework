@@ -11,52 +11,6 @@
         }
     },
 
-    "menu-item#major-appliances": {
-        "props": {
-            "type": "custom",
-            "highlight": true,
-            "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "major-appliances",
-            "text": "Major Appliances"
-          }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#major"]
-      },
-
-
-      "menu-item#small-appliances": {
-        "props": {
-            "type": "custom",
-            "highlight": true,
-            "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "small-appliances",
-            "text": "Small Appliances"
-          }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#small"]
-      },
-
-      "menu-item#electronics": {
-        "props": {
-            "type": "custom",
-            "highlight": true,
-            "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "electronics",
-            "text": "Electronics"
-          }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#electronics"]
-      },
-
     "vtex.menu@2.x:submenu#major":{
         "children":[
           "vtex.menu@2.x:menu#major"
